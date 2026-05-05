@@ -11,3 +11,10 @@ const div1 = document.getElementById('thanks');
 const para = document.createElement('p');
 para.textContent = 'Please visit us again';
 div1.appendChild(para);
+// Write your code below:
+const parent = document.getElementsByClassName("fruit");
+let third = parent[2];
+third.style.backgroundColor = "yellow";
+for (let i = 0; i < parent.length; i++){
+    parent[i].style.fontWeight = "bold";
+}
